@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView3" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <TableLayout android:id="@+id/tableRank" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_height="wrap_content" android:text="@string/rank_no" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_weight="1" android:textSize="20dip"></TextView>
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:text="@string/player" android:layout_weight="2" android:textSize="20dip"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="@string/guess_count" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_weight="1" android:textSize="20dip"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="@string/timer" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_weight="1" android:textSize="20dip"></TextView>
+    </TableRow>
+  </TableLayout>
+</ScrollView>

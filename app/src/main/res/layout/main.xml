@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/btnNewGame" android:text="@string/single_game"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/btnComputeGame" android:text="@string/compute_game"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/btnContinueGame" android:text="@string/continue_game"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/btnList" android:text="@string/rank"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/btnAbout" android:text="@string/about"></Button>
+    
+    <LinearLayout android:orientation="vertical" android:id="@+id/adLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>
